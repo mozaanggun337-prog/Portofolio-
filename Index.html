@@ -1,1 +1,84 @@
-hello word
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio 
+  Anggun Permata Sari</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: linear-gradient(135deg, #ffd6e0, #ffe6f0);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center font-sans text-gray-800">
+
+  <!-- Container -->
+  <div class="max-w-3xl w-full bg-white/70 backdrop-blur-lg shadow-xl rounded-2xl p-6 md:p-10 animate-fade-in">
+    <!-- Judul -->
+    <h1 class="text-3xl md:text-4xl font-bold text-pink-500 text-center mb-6 animate-bounce">
+      👩‍💻 Portofolio Anggun Permata Sari
+    </h1>
+
+    <!-- Tentang Saya -->
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold text-pink-400 mb-2">Tentang Saya</h2>
+      <p class="leading-relaxed">
+        Halo! Saya <b>Anggun Permata Sari</b>, siswi jurusan <b>PPLG (Pengembangan Perangkat Lunak dan Gim)</b>. 
+        Saya tertarik di bidang programming, web development, dan teknologi. 
+        Saya suka belajar hal baru, terutama yang berhubungan dengan IT.
+      </p>
+    </section>
+
+    <!-- Data Diri -->
+    <section class="mb-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div>
+        <p><b>Nama:</b> Anggun Permata Sari</p>
+        <p><b>TTL:</b> Bogor, 28 Juni 2010</p>
+        <p><b>Alamat:</b> Ciapus sukamakmur RT06 RW04</p>
+        <p><b>Hobi:</b> Memasak& Bermain darbuka</p>
+      </div>
+      <div>
+        <p><b>Pendidikan:</b></p>
+        <ul class="list-disc list-inside">
+          <li>SD : SDN CIAPUS 08</li>
+          <li>SMP : MTS DARUL IHYA</li>
+          <li>SMK : SMKN 1 CIOMAS</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Cita-cita -->
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold text-pink-400 mb-2">Cita-cita</h2>
+      <p>Menjadi seorang <b>Programmer</b> yang handal dalam bidang percodingan yang berhubungan dengan dunia IT.</p>
+    </section>
+
+    <!-- Harapan -->
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold text-pink-400 mb-2">Harapan & Tujuan</h2>
+      <p>Terus berkembang dalam pembelajaran website dan game, menemukan potensi diri yang sesungguhnya, dan meraih cita cita dengan ikhtiar dan doa.</p>
+    </section>
+
+    <!-- Kontak -->
+    <section class="text-center mt-8">
+      <h2 class="text-2xl font-semibold text-pink-400 mb-3">📫 Kontak</h2>
+      <p>📧 Email: <a href="mailto:Anggunpermatasari2810 @gmail.com" class="text-pink-600 underline">Anggunpermatasari2810 @gmail.com</a></p>
+      <p>🖇️ GitHub: <a href="https://github.com/Anggunpermatasari2810" target="_blank" class="text-pink-600 underline">github.com/Anggunpermatasari2810</a></p>
+    </section>
+  </div>
+
+  <!-- Animasi Custom -->
+  <style>
+    @keyframes fade-in {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fade-in {
+      animation: fade-in 1s ease-out;
+    }
+  </style>
+
+</body>
+</html>
